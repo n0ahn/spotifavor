@@ -81,7 +81,7 @@ function getConfig() {
     typeof import.meta !== 'undefined' ? import.meta.env.VITE_SPOTIFY_CLIENT_ID || null : null
   const redirectUri =
     typeof import.meta !== 'undefined'
-      ? import.meta.env.VITE_SPOTIFY_REDIRECT_URI || `${window.location.origin}/app`
+      ? import.meta.env.VITE_SPOTIFY_REDIRECT_URI || `${window.location.origin}/callback`
       : ''
   return { clientId, redirectUri }
 }
@@ -92,11 +92,15 @@ export function hasStoredToken() {
 
 export async function startSpotifyLogin({
   scopes = [
-    'user-read-email',
     'user-read-private',
-    'user-library-read',
-    'user-read-recently-played',
+    'user-read-email',
     'user-top-read',
+    'user-read-recently-played',
+    'user-read-currently-playing', 
+    'user-follow-read',           
+    'playlist-read-private',     
+    'playlist-read-collaborative',
+    'user-library-read'
   ],
 } = {}) {
   const { clientId, redirectUri } = getConfig()
