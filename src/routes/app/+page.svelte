@@ -119,7 +119,7 @@
           <ArrowLeft class="h-4 w-4" />
         </button>
         <div>
-          <div class="text-xs uppercase tracking-[0.16em] text-spotify-green">VibeScope</div>
+          <div class="text-xs uppercase tracking-[0.16em] text-spotify-green">Spotifavor</div>
           <div class="text-sm font-semibold tracking-tight">Your Spotify story</div>
         </div>
       </div>

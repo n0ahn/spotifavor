@@ -42,7 +42,7 @@
           V
         </div>
         <div>
-          <div class="text-sm font-semibold tracking-tight">VibeScope</div>
+          <div class="text-sm font-semibold tracking-tight">Spotifavor</div>
           <div class="text-xs text-neutral-400">Spotify listening analytics</div>
         </div>
       </div>
@@ -82,7 +82,7 @@
         </h1>
 
         <p class="max-w-xl text-sm leading-relaxed text-neutral-300 md:text-base">
-          VibeScope turns your Spotify history into a living dashboard: cycles, obsessions,
+          Spotifavor turns your Spotify history into a living dashboard: cycles, obsessions,
           late‑night loops, and everything in between. No spreadsheets – just clean visuals and
           story‑driven stats.
         </p>
